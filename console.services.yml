@@ -1,0 +1,9 @@
+services:
+  tome_console.install_command:
+    class: \TomeConsole\Command\InstallCommand
+    tags:
+      - { name: drupal.command }
+  tome_console.init_command:
+    class: \TomeConsole\Command\InitCommand
+    tags:
+      - { name: drupal.command }

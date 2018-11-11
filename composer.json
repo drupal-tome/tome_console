@@ -1,0 +1,21 @@
+{
+    "name": "drupal-tome/tome_console",
+    "description": "Contains global Drupal Console commands for initializing and installing Tome",
+    "type": "drupal-console-library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Samuel Mortenson",
+            "email": "samuel@mortenson.coffee"
+        }
+    ],
+    "require": {},
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "autoload": {
+        "psr-4": {"TomeConsole\\": "src"}
+    },
+    "require-dev": {
+        "symfony/console": "~2.8|~3.0"
+    }
+}
